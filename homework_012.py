@@ -13,7 +13,7 @@ class Calculator:
     def devine(self, x, y):
         return x / y
 
-class TestStringMethods(unittest.TestCase):
+class TestCalculator(unittest.TestCase):
     def test_devine_zero(self):
         Calc = Calculator()
         with self.assertRaises(Exception):
